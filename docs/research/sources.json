@@ -1,0 +1,70 @@
+{
+  "retrieved_on": "2026-11-19",
+  "sources": [
+    {
+      "repository": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO",
+      "commit": "bad7ab5a40ac1a95d9d78a87c95a688d8b57cf28",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "fc636466b740c636d6ceb488e00d2b5a95f8fdb5c46de142b2a227fda928aeca",
+          "read_lines": [
+            1,
+            100
+          ]
+        },
+        {
+          "path": "LICENSE.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "read_lines": [
+            1,
+            30
+          ]
+        },
+        {
+          "path": "src/opentimelineio/clip.h",
+          "sha256": "baa24b5384e625b31f3491b7651ae8101928b416815dc7bb3c13c19433f2bdbe",
+          "read_lines": [
+            1,
+            100
+          ]
+        }
+      ],
+      "use": "只读研究，未运行上游脚本或复制实现"
+    },
+    {
+      "repository": "https://github.com/octimot/StoryToolkitAI",
+      "commit": "91ab42b11f509aa84bb3801a5a1ba31cf5cf74cb",
+      "license": "GPL-3.0",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "83d3f2eb814c41f5d2f33eb61bdf386a84d2b5f5c1ac41c499d753c257c72b35",
+          "read_lines": [
+            1,
+            100
+          ]
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "249f85082c1e49103d0e2b11e45794e5eb087908962273c8c4ffdf022d84fb3b",
+          "read_lines": [
+            1,
+            25
+          ]
+        },
+        {
+          "path": "storytoolkitai/core/toolkit_ops/story.py",
+          "sha256": "34bf72c2743631a9525bf96cb986767de0fd6917e8e31a455d4a9b2d9045ec66",
+          "read_lines": [
+            1,
+            100
+          ]
+        }
+      ],
+      "use": "只读研究，未运行上游脚本或复制实现"
+    }
+  ],
+  "adoption": "OpenTimelineIO区分媒体引用、源范围与时间线出场；StoryToolkitAI组织采访转录和故事。只读研究上游，不复制GPL源码或模型调度。本包首版导出固定纸剪映射，不声称OTIO往返兼容或完整非线性剪辑器。"
+}

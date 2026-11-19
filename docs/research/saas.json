@@ -1,0 +1,24 @@
+{
+  "retrieved_on": "2026-11-19",
+  "pages": [
+    {
+      "name": "Descript",
+      "url": "https://www.descript.com/",
+      "status": "200",
+      "exit_code": 0,
+      "sha256": "969c567c93c3b09eb9b48fa073ef3866892e5b643987fee118dfdbfebc912b5f",
+      "title": "Descript: AI Video &amp; Audio Text-based Editor — Try Free",
+      "scope": "公开页面；未登录、未执行产品业务"
+    },
+    {
+      "name": "Trint",
+      "url": "https://trint.com/",
+      "status": "200",
+      "exit_code": 0,
+      "sha256": "a9ef87f4151284ab0a903561fbdbc2d90bc99be4895bda75aeda74ba81bfea77",
+      "title": "AI Transcription &amp; Media Production Workflow | Trint",
+      "scope": "公开页面；未登录、未执行产品业务"
+    }
+  ],
+  "limits": "可访问页面不等于已体验产品；HTTP失败保留原状态。"
+}
