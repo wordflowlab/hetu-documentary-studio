@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-11-19",
+  "logs": [
+    {
+      "path": "output/machine.log",
+      "sha256": "e4ecf5baf0bdee40f202a7cde6acd77cf4684e02decd2c3d1a35f7733694357b",
+      "passed_marker": true,
+      "failure_marker": false
+    },
+    {
+      "path": "output/ui.log",
+      "sha256": "3a21ba11747e42acbbe9269869331524cca3800e067ef7738e1c08c9ddfa349e",
+      "passed_marker": false,
+      "failure_marker": true
+    },
+    {
+      "path": "output/cross.log",
+      "sha256": "b04b2932c6eda97d51fa39a27f235ec0981c262f02b3ba893f44ac3e71c31b8d",
+      "passed_marker": true,
+      "failure_marker": false
+    }
+  ],
+  "initial_failure": {
+    "package": "podcast-studio",
+    "reason": "测试适配器将read指针的插件内部action误用为宿主action；大WAV触发明确分块后暴露。",
+    "fix": "按read.action区分稳定调用封套与插件只读投影，保留原结果摘要并重组完整字节。",
+    "fixed_official_runs": [
+      "https://github.com/wordflowlab/hetu-documentary-studio/actions/runs/44487662883",
+      "https://github.com/wordflowlab/hetu-podcast-studio/actions/runs/44487696070"
+    ]
+  },
+  "local_boundary": "本机并行负载下出现结果未知和纪录片退出清理超时；不将通过断言或工作面图计为整个本机旅程通过。最终正式完整验收由两个独立干净macOS运行器通过。",
+  "unknown_write_recovery": {
+    "action": "put_section",
+    "operation_key": "media-story-podcast-studio-revise-20261119",
+    "original_operation_read": "not_found",
+    "same_key_resumed_and_fixed_revision_read": true
+  },
+  "shared_application_replaced": false,
+  "limits": [
+    "没有修改共享/Applications/Hetu.app",
+    "未将演示音画视为真人语音或内容认证"
+  ]
+}
