@@ -1,0 +1,8 @@
+{
+  "release": "https://github.com/wordflowlab/hetu-documentary-studio/releases/tag/v0.1.0",
+  "source_commit": "59ddaeb1548e8c980c56300f535f8e018a1e9d54",
+  "archive_sha256": "b5af816d9366b296a62f5044a2ce66fee0045f0a2691f96f69281cdb2b667ead",
+  "package_sha256": "9c50bc5babcae0567b21c4081fea6950478f315f7aac5ce1b3047258357f2d43",
+  "files_byte_identical": 18,
+  "verified": true
+}
