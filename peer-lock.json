@@ -1,0 +1,8 @@
+{
+  "peer": {
+    "repository": "wordflowlab/hetu-podcast-studio",
+    "commit": "0a156ebe7fa3fd078251baa10757574da1168c69",
+    "package_sha256": "3a58fe327df83001b35b4363a0edcf7b6149840fcce74ed7da92b13c17386c79"
+  },
+  "scope": "只属于联合验收，不成为专业包运行依赖"
+}
