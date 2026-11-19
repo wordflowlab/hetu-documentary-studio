@@ -9,6 +9,7 @@ import {
   base,
   selection,
   sha,
+  addVideo,
 } from "../support/scenario.ts";
 import {chromium} from "@playwright/test";
 import {pathToFileURL} from "node:url";
@@ -28,7 +29,8 @@ test("真实Electron审阅、专业操作、导出、冲突保留与关闭重开
   try {
     const source=await fixedScript(c,original,'ui-source');
     const audio=await importAsset(c,wav(),'原创媒体测试音.wav','ui-audio');
-    const refs=[source.source_ref,audio],p=scenario();
+    const video=await importAsset(c,await readFile(new URL('../fixtures/station-test.mp4',import.meta.url)),'原创合成画面.mp4','ui-video');
+    const refs=[source.source_ref,audio,video],p=addVideo(scenario());
     let record: any;
     const exports = path.join(c.directory, "exports");
     await mkdir(exports);
